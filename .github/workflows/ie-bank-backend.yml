@@ -87,7 +87,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'adelatorre-backend-dev'
+          app-name: 'sbrenner-backend-dev'
           package: .
 
   deploy-uat:
@@ -115,7 +115,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'adelatorre-backend-uat'
+          app-name: 'sbrenner-backend-uat'
           package: .
           
           
